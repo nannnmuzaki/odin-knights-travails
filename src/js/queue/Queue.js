@@ -35,6 +35,6 @@ export class Queue {
     this.#head = this.#head.nextNode;
 
     this.#size--;
-    return temp;
+    return temp.value;
   }
 }
